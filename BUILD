@@ -52,8 +52,8 @@ java_library(
 
 java_grpc_library(
     name = "runtime_grpc_lib",
-    srcs = [":runtime_proto_lib"],
-    deps = [":runtime_proto"],
+    srcs = [":runtime_proto"],
+    deps = [":runtime_proto_lib"],
 )
 
 java_proto_library(
