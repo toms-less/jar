@@ -4,3 +4,14 @@ bazel-bin
 bazel-out
 bazel-testlogs
 bazel-jar
+
+src/main/java/com/toms/less/RequestData.java
+src/main/java/com/toms/less/RequestDataOrBuilder.java
+src/main/java/com/toms/less/ResponseData.java
+src/main/java/com/toms/less/ResponseDataOrBuilder.java
+src/main/java/com/toms/less/RuntimeProto.java
+src/main/java/com/toms/less/RuntimeRequest.java
+src/main/java/com/toms/less/RuntimeRequestOrBuilder.java
+src/main/java/com/toms/less/RuntimeResponse.java
+src/main/java/com/toms/less/RuntimeResponseOrBuilder.java
+src/main/java/com/toms/less/RuntimeServiceGrpc.java

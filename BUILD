@@ -31,12 +31,12 @@ java_library(
     resources = glob(
         ["src/main/resources/**"],
     ),
-    runtime_deps = [
-        "@com_github_grpc_java//netty",
-    ],
     deps = [
         ":runtime_grpc_lib",
         ":runtime_proto_lib",
+        "@com_github_grpc_java//netty",
+        "@com_github_grpc_java//api",
+        "@com_github_grpc_java//stub",
         "@maven//:org_slf4j_log4j_over_slf4j",
         "@maven//:org_slf4j_jul_to_slf4j",
         "@maven//:ch_qos_logback_logback_core",
